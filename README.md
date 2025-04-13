@@ -1,3 +1,11 @@
+# Notice
+
+### This is a forked version of [cloudflared](https://github.com/cloudflare/cloudflared). The base commit has been set to [2023.8.2](https://github.com/cloudflare/cloudflared/commit/569a7c3c9ed02df9d3a8cb4b7b7725f1466c065f).
+
+# Feature
+
+### In this version, if you set socks5 proxy in environment variable ```TUNNEL_PROXY```, your cloudflared egress traffic will go through the proxy.
+
 # Cloudflare Tunnel client
 
 Contains the command-line client for Cloudflare Tunnel, a tunneling daemon that proxies traffic from the Cloudflare network to your origins.
